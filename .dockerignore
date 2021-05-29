@@ -1,0 +1,6 @@
+**/local.py
+*.pyc
+**/.vscode
+.git
+**/*.log
+*.md

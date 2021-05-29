@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==3.2"
+djangorestframework = "==3.12.4"
+graphene-django = "==2.15.0"
+drf-nested-routers = "==0.93.3"
+kubernetes = "==12.0.1"
+boto3 = "*"
+django-redis = "4.12.1"
+schema = "==0.7.4"
+supervisor = "==4.2.2"
+uvicorn = {extras = ["standard"], version = "==0.13.4"}
+gunicorn = "==20.1.0"
+uvloop = "*"
+
+[dev-packages]
+flake8 = "*"
+mypy = "*"
+django-stubs = "*"
+tox = "*"
+djangorestframework-stubs = "*"
+
+[requires]
+python_version = "3.8"

@@ -1,0 +1,6 @@
+[flake8]
+ignore =
+     # (line too long (82 > 79 characters)
+     E501,
+
+exclude =
