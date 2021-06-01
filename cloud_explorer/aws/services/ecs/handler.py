@@ -22,7 +22,6 @@ class ECSHandler(AWSBase, SchemaMixin):
         self.default_tags = []  # format = {""key: "value"}
 
     def create_capacity_provider(self, **kwargs):
-        # TODO: write schema for this and send arguments accordingly
         self._validate_args(kwargs)
         response = self.client.create_capacity_provider(**kwargs)
         response = self._format_response(response, root_key='capacityProvider')

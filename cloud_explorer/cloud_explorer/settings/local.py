@@ -33,3 +33,13 @@ STATICFILES_DIRS = [
 
 # will be served
 STATIC_ROOT = os.path.join(BASE_DIR, "static-serve")
+
+REST_FRAMEWORK = {
+    'DEFAULT_THROTTLE_CLASSES': [
+        'rest_framework.throttling.AnonRateThrottle',
+        'cloud_explorer.utils.throttling.PerUserThrottling'
+    ],
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '1000/day'
+    }
+}

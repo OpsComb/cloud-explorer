@@ -6,11 +6,11 @@ infrastructures(clouds).
 
 ### Why Common Gateway?
 1) Applications need not maintain/secure access keys to different environments. They can use 1 request format for interacting with different infrastructures
-2) A similar response structure for all responses makes it easier for consumers to focus on data without concerning about parse logics in multi-cloud environments
+2) A similar response structure for all requests makes it easier for consumers to focus on data without concerning about parse logics in multi-cloud environments
 3) Access tokens/keys can be maintained at 1 location for cloud/non-cloud inter cloud applications thus providing greater control over access
 4) Features like request throttling help you control the hits any consumer makes to the cloud. (Unbounded requests can lead to request throttling at cloud end as well which can certainly cause production issues)
 
-Some small but significant additions including
+Some small but significant additions include -
 1) Support for adding default tags for resources
 2) Instant Audit Log for resource creation or deletion
 3) Notification can be given to stakeholder for infra changes (support for filtering events)

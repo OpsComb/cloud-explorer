@@ -66,7 +66,7 @@ DJANGO_REDIS_IGNORE_EXCEPTIONS = True
 REST_FRAMEWORK = {
     'DEFAULT_THROTTLE_CLASSES': [
         'rest_framework.throttling.AnonRateThrottle',
-        'utils.throttling.PerUserThrottling'
+        'cloud_explorer.utils.throttling.PerUserThrottling'
     ],
     'DEFAULT_THROTTLE_RATES': {
         'anon': '1000/day'
