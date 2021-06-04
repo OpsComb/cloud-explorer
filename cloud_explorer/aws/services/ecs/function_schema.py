@@ -1,4 +1,4 @@
-from schema import Optional, And, Use, Or
+from schema import And, Optional, Or, Use
 
 str_check = And(str, len, Use(str.strip))
 positive_int_check = And(int, lambda x: x > 0)

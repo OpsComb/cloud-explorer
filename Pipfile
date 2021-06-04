@@ -23,6 +23,8 @@ mypy = "*"
 django-stubs = "*"
 tox = "*"
 djangorestframework-stubs = "*"
+pre-commit = "*"
+isort = "*"
 
 [requires]
 python_version = "3.8"

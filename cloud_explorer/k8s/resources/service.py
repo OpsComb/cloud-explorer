@@ -1,6 +1,6 @@
 import logging
-from k8s.resources import BaseResource, register
 
+from k8s.resources import BaseResource, register
 from kubernetes import client
 
 logger = logging.getLogger(__name__)

@@ -4,6 +4,7 @@ from typing import List
 
 from cloud_explorer.aws.utils.aws_base import AWSBase
 from cloud_explorer.aws.utils.mixins import SchemaMixin
+
 from .function_schema import _set_function_schema
 
 logger = logging.getLogger('__name__')

@@ -1,4 +1,4 @@
-from schema import Optional, And, Or, Use, Regex  # noqa
+from schema import And, Optional, Or, Regex, Use  # noqa
 
 
 def _set_function_schema(self):

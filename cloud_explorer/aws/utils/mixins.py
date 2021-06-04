@@ -1,5 +1,6 @@
-from schema import Schema
 from typing import Dict
+
+from schema import Schema
 
 
 class SchemaNotFoundError(Exception):

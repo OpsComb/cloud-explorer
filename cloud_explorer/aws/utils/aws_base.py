@@ -3,6 +3,7 @@ import logging
 from typing import Dict
 
 import boto3
+
 from cloud_explorer.aws.models import Profile
 
 from .decorators import error_handling_decorator
