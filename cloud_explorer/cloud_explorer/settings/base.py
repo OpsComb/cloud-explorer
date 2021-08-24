@@ -40,10 +40,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cloud_explorer',
     'rest_framework',
+    'cloud_explorer',
     'aws',
-    'k8s',
+    'k8s'
 ]
 
 MIDDLEWARE = [

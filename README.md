@@ -14,7 +14,7 @@ Some small but significant additions include -
 1) Support for adding default tags for resources
 2) Instant Audit Log for resource creation or deletion
 3) Notification can be given to stakeholder for infra changes (support for filtering events)
-4) Restrict creation of certain resources directly via API
+4) Restrict creation of certain resources directly via API. Only whitelisted users can create resource without approval
 
 ### To run this project
 1) Install [pipenv](https://pypi.org/project/pipenv/)

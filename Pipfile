@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "==3.2"
+django = "==3.2.4"
 djangorestframework = "==3.12.4"
 graphene-django = "==2.15.0"
 drf-nested-routers = "==0.93.3"
@@ -16,6 +16,7 @@ supervisor = "==4.2.2"
 uvicorn = {extras = ["standard"], version = "==0.13.4"}
 gunicorn = "==20.1.0"
 uvloop = "*"
+django-event-system = "==1.0.1"
 
 [dev-packages]
 flake8 = "*"
